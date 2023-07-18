@@ -1,10 +1,10 @@
-package webproject5;
+package web.project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class ProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
