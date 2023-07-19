@@ -412,3 +412,41 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.mybatis.s
 2023-07-19 20:55:07,302 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-07-19 20:55:07,302 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2023-07-19 20:55:07,302 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\kmg\kmg\git4\project\src\test\resources
+2023-07-19 21:26:22,021 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-19 21:26:48,158 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: web:project:0.0.1-SNAPSHOT @ C:\lch_java_weekend\lch_java_weekend\java\git4\project\pom.xml.
+2023-07-19 21:26:49,341 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:26:49,343 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:26:49,345 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-19 21:26:49,365 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-07-19 21:26:49,381 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:26:49,381 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:26:49,382 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\lch_java_weekend\lch_java_weekend\java\git4\project\src\test\resources
+2023-07-19 21:26:49,962 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: web:project:0.0.1-SNAPSHOT @ C:\lch_java_weekend\lch_java_weekend\java\git4\project\pom.xml.
+2023-07-19 21:26:52,497 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:26:52,497 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:26:52,507 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-19 21:26:52,525 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-07-19 21:26:52,624 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:26:52,624 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:26:52,624 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\lch_java_weekend\lch_java_weekend\java\git4\project\src\test\resources
+2023-07-19 21:27:32,793 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:27:32,793 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:27:32,798 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-19 21:27:32,807 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-07-19 21:27:32,819 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:27:32,820 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:27:32,820 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\lch_java_weekend\lch_java_weekend\java\git4\project\src\test\resources
+2023-07-19 21:27:39,052 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:27:39,052 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:27:39,057 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-19 21:27:39,065 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-07-19 21:27:39,079 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:27:39,079 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:27:39,079 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\lch_java_weekend\lch_java_weekend\java\git4\project\src\test\resources
+2023-07-19 21:28:13,757 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:28:13,757 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:28:13,764 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-19 21:28:13,774 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-07-19 21:28:13,789 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-19 21:28:13,789 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-19 21:28:13,789 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\lch_java_weekend\lch_java_weekend\java\git4\project\src\test\resources
