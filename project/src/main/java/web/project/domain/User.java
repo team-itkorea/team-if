@@ -11,4 +11,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class User {
 	private int usercode;
+	private int username;
 }
