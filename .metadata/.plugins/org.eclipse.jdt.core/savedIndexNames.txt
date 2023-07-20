@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 INDEX VERSION 1.134+C:\Java\git\team2\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
 3053824717.index
 3581163120.index
+=======
+INDEX VERSION 1.134+C:\njy\java\git1\.metadata\.plugins\org.eclipse.jdt.core
+3581163120.index
+2324928149.index
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d

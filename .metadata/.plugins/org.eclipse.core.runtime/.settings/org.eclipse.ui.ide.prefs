@@ -2,6 +2,10 @@
 <<<<<<<=HEAD
 >>>>>>>=origin/koo
 eclipse.preferences.version=1
+<<<<<<< HEAD
 platformState=1689766377109
+=======
+platformState=1688992553693
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 quickStart=false
 tipsAndTricks=true
