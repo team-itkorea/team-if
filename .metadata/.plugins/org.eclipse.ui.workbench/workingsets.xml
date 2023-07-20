@@ -5,8 +5,12 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689762272251_2" label="Window Working Set" name="Aggregate for window 1689762272251"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689767673787_3" label="Window Working Set" name="Aggregate for window 1689767673787"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689847215651_4" label="Window Working Set" name="Aggregate for window 1689847215651"/>
 =======
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689847209668_4" label="Window Working Set" name="Aggregate for window 1689847209668"/>
 >>>>>>> origin/kiim
+=======
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689847100957_4" label="Window Working Set" name="Aggregate for window 1689847100957"/>
+>>>>>>> nam
 </workingSetManager>
