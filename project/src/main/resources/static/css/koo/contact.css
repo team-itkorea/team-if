@@ -94,7 +94,7 @@
     border: 1px solid #f25656;
     border-radius: 50%;
     background-color: #f25656;
-    margin: 15px 0px 0px 7px;
+    margin: 16px 0px 0px 7px;
     width: 5px;
     height: 5px;
 }
@@ -104,15 +104,24 @@
 }
 
 .contact-font2 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .radio {
     box-sizing: border-box;
+    border-bottom: #ffffff;
     border-radius: 50%;
-    margin: 0px 5px 0px 0px ;
+    margin: 0px 10px 0px 0px ;
     width: 22px;
     height: 22px;
+    accent-color: rgb(187, 127, 127);
+}
+
+.contact-font2 label {
+    box-sizing: border-box;
+    margin: 5px 0px 20px 0px;
+    display: flex;
+    align-items: center;
 }
 
 .t-box {
@@ -187,14 +196,34 @@
     margin: 4px;
     width: 20px;
     height: 20px;
+    accent-color: rgb(187, 127, 127);
+}
+
+.infor label{
+    display: flex;
+    align-items: center;
+}
+
+.infor span {
+    margin: 0px 0px 0px 5px;
 }
 
 .doinquiry {
     border: 1px solid;
     border-radius: 22px 22px 22px 22px;
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
     padding: 10px 20px 10px 20px;
     text-align: center;
     width: 774px;
     height: 22px;
+    transition: background-color 0.8s ease;
+}
+
+.doinquiry:hover {
+    background-color: #222222;
+    color: white;
+}
+
+.doinquiry:hover a {
+    color: #ffffff;
 }

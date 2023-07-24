@@ -6,7 +6,7 @@
 
 .mate-box {
     box-sizing: border-box;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #222222;
     justify-content: center;
     background-color: #7dc384;
     text-align: center;
