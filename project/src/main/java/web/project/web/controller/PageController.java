@@ -10,4 +10,9 @@ public class PageController {
 	public String loadSignin() {
 		return "auth/signin";
 	}
+	
+	@GetMapping("/contact")
+	public String loadContact() {
+		return "contact";
+	}
 }
