@@ -82,24 +82,42 @@
     font-family: 'NanumSquare';
     font-size: 18px;
     font-weight: 500;
+    color: #222222;
 }
 
 .contact-font2 {
     font-family: 'NanumSquare';
     font-size: 16px;
     font-weight: 500;
+    color: #222222;
 }
 
 .contact-font3 {
     font-family: 'NanumSquare';
     font-size: 16px;
     font-weight: 700;
+    color: #222222;
 }
 
 .contact-font4 {
     font-family: 'NanumSquare';
     font-size: 16px;
     font-weight: normal;
+    color: #222222;
+}
+
+.contact-font5 {
+    font-family: 'NanumSquare';
+    font-size: 16px;
+    font-weight: normal;
+    color: #222222;
+}
+
+.contact-font4:hover {
+    font-family: 'NanumSquare';
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
 }
 
 .contact-small {
@@ -107,6 +125,13 @@
     font-size: 16px;
     font-weight: 400;
     word-spacing: -1.5px;
+    color: #222222;
+}
+
+.i-box {
+    font-family: 'NanumSquare';
+    font-size: 16px;
+    color: #222222;
 }
 
 /* well1~4 */
