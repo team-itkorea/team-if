@@ -1,7 +1,9 @@
+<<<<<<< HEAD
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="web.project.domain.User"><rhs name\="web.project.domain.User"/></lhs></history>
+=======
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="org.springframework.http.HttpEntity"><rhs name\="org.springframework.http.ResponseEntity"/></lhs><lhs name\="org.springframework.http.ResponseEntity"><rhs name\="org.springframework.http.ResponseEntity"/></lhs></history>
+>>>>>>> a0c7763d90be96d8aa0a37dae93b4fb4117ed18d
 content_assist_number_of_computers=15
-content_assist_proposals_background=255,255,255
-content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
 org.eclipse.jdt.ui.formatterprofiles.version=23
 spelling_locale_initialized=true
