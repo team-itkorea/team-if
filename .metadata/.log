@@ -2071,11 +2071,16 @@ java.lang.InterruptedException
 !MESSAGE Classpath changed for project: project
 >>>>>>> nam
 <<<<<<< HEAD
+<<<<<<< HEAD
 !SESSION 2023-07-20 19:46:33.221 -----------------------------------------------
 eclipse.buildId=4.18.0.202303131455
 java.version=17.0.6
 =======
+!SESSION 2023-07-20 19:46:37.381 -----------------------------------------------
+>>>>>>> kiim
+=======
 !SESSION 2023-07-20 19:44:53.911 -----------------------------------------------
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 eclipse.buildId=4.19.0.202306150758
 java.version=17.0.7
 >>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
@@ -2084,6 +2089,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 !ENTRY ch.qos.logback.classic 1 0 2023-07-20 19:46:34.011
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
@@ -2096,12 +2102,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springfra
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/kmg/kmg/git4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/kmg/kmg/git4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
 =======
+!ENTRY org.eclipse.emf.ecore 2 0 2023-07-20 19:46:39.149
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 4 567 2023-07-20 19:46:51.026
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-07-20 19:46:51.026
+>>>>>>> kiim
+=======
 !ENTRY org.eclipse.emf.ecore 2 0 2023-07-20 19:44:54.508
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
 !ENTRY org.eclipse.core.resources 4 567 2023-07-20 19:45:03.492
 !MESSAGE Workspace restored, but some problems occurred.
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-07-20 19:45:03.492
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 !MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -2155,7 +2170,11 @@ org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cm
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-07-20 19:46:51.026
+=======
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-07-20 19:45:03.493
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 !MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -2209,7 +2228,11 @@ java.lang.Exception: The project description file (.project) for '.org.eclipse.e
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-07-20 19:46:51.026
+=======
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-07-20 19:45:03.493
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 !MESSAGE Could not read metadata for 'project'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/project)[567]: java.lang.Exception: The project description file (.project) for 'project' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -2263,7 +2286,11 @@ org.eclipse.core.internal.resources.ResourceException(/project)[567]: java.lang.
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-07-20 19:46:51.026
+=======
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-07-20 19:45:03.493
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 !MESSAGE The project description file (.project) for 'project' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'project' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -2318,11 +2345,21 @@ java.lang.Exception: The project description file (.project) for 'project' is mi
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-07-20 19:46:55.601
+!MESSAGE Unable to load resource file:/C:/Java/git/team2/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Java/git/team2/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Java/git/team2/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+=======
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2023-07-20 19:45:04.007
 !MESSAGE Unable to load resource file:/C:/njy/java/git1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/njy/java/git1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/njy/java/git1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+<<<<<<< HEAD
 >>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
+=======
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
+>>>>>>> kiim
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
@@ -2349,10 +2386,17 @@ org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException:
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 <<<<<<< HEAD
+<<<<<<< HEAD
 Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/kmg/kmg/git4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/kmg/kmg/git4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
 =======
 Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/njy/java/git1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/njy/java/git1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
 >>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
+=======
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Java/git/team2/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Java/git/team2/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+=======
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/njy/java/git1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/njy/java/git1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
+>>>>>>> kiim
 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
@@ -2377,10 +2421,17 @@ Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/njy/java/git1/.metada
 	... 23 more
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2023-07-20 19:46:36.394
 =======
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2023-07-20 19:45:04.008
 >>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-07-20 19:46:55.601
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-07-20 19:45:04.008
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
+>>>>>>> kiim
 !MESSAGE The persisted application model has no top-level window. Reinitializing with the default application model.
 !STACK 0
 java.lang.Exception
@@ -2406,14 +2457,24 @@ java.lang.Exception
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2023-07-20 19:46:37.435
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-07-20 19:46:37.435
 =======
+!ENTRY org.eclipse.jface 2 0 2023-07-20 19:47:08.725
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-20 19:47:08.725
+>>>>>>> kiim
+=======
 !ENTRY org.eclipse.jface 2 0 2023-07-20 19:45:04.848
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-07-20 19:45:04.848
+<<<<<<< HEAD
 >>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
+=======
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
+>>>>>>> kiim
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -2454,8 +2515,15 @@ Binding(ALT+SHIFT+R,
 !ENTRY org.eclipse.ui 4 0 2023-07-20 19:46:38.077
 =======
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.ui 4 0 2023-07-20 19:47:09.649
+=======
 !ENTRY org.eclipse.ui 4 0 2023-07-20 19:45:05.349
+<<<<<<< HEAD
 >>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
+=======
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
+>>>>>>> kiim
 !MESSAGE Unable to restore working set state.
 !STACK 1
 org.eclipse.ui.WorkbenchException: 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
@@ -2605,10 +2673,17 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 2; 요소
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:148)
 	... 106 more
 <<<<<<< HEAD
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.ui 4 0 2023-07-20 19:46:38.078
 =======
 !SUBENTRY 1 org.eclipse.ui 4 0 2023-07-20 19:45:05.350
 >>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
+=======
+!SUBENTRY 1 org.eclipse.ui 4 0 2023-07-20 19:47:09.649
+=======
+!SUBENTRY 1 org.eclipse.ui 4 0 2023-07-20 19:45:05.350
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
+>>>>>>> kiim
 !MESSAGE 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 2; 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
@@ -2756,22 +2831,34 @@ org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 2; 요소 콘텐츠�
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2023-07-20 19:46:39.367
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-20 19:47:11.569
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\김상현'. If this is
+>>>>>>> kiim
 =======
 !ENTRY org.eclipse.egit.ui 2 0 2023-07-20 19:45:06.646
 >>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\ITPS'. If this is
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2023-07-20 19:47:49.806
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-07-20 19:47:49.806
 =======
+!ENTRY org.eclipse.core.resources 4 567 2023-07-20 19:47:19.887
+>>>>>>> kiim
+=======
 !ENTRY org.eclipse.core.resources 4 567 2023-07-20 19:45:19.573
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 !MESSAGE The project description file (.project) for 'project' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'project' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -2785,6 +2872,30 @@ java.lang.Exception: The project description file (.project) for 'project' is mi
 	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< HEAD
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:38.760
+!MESSAGE Classpath changed for project: project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:38.760
+!MESSAGE Boot project ADDED: project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:38.761
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:38.787
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:38.789
+!MESSAGE Classpath changed for project: project
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-20 19:47:38.822
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\김상현\Downloads\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\김상현\Downloads\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\김상현\Downloads\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+=======
 !SESSION 2023-07-20 19:46:54.707 -----------------------------------------------
 eclipse.buildId=4.19.0.202306150758
 java.version=17.0.7
@@ -2845,18 +2956,33 @@ START:
 C:\njy\java\data\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
 -cp
 C:\njy\java\data\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\njy\java\data\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 -Dsts.lsp.client=eclipse
 -Dlsp.completions.indentation.enable=true
 -Xmx1024m
 -XX:+HeapDumpOnOutOfMemoryError
 -XX:TieredStopAtLevel=1
 -Xlog:jni+resolve=off
+<<<<<<< HEAD
+-Dspring.config.location=file:C:\Users\김상현\Downloads\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Java/git/team2/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1689850058822
+=======
 -Dspring.config.location=file:C:\njy\java\data\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
 -XX:ErrorFile=C:/njy/java/git1/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1689850110107
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
 --languageserver.hover-timeout=225
 END
 
+<<<<<<< HEAD
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:38.823
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-20 19:47:38.828
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10768
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-20 19:47:38.861
+=======
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:48:30.108
 !MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
 
@@ -2864,6 +2990,7 @@ END
 !MESSAGE Started org.springframework.tooling.boot.ls LS process 16324
 
 !ENTRY org.eclipse.lsp4e 4 0 2023-07-20 19:48:30.186
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 !MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
 !STACK 0
 java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
@@ -2885,10 +3012,20 @@ java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protoco
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
 
+<<<<<<< HEAD
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:39.212
+!MESSAGE Classpath changed for project: project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:44.219
+!MESSAGE Classpath changed for project: project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:47:45.230
+=======
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:48:30.668
 !MESSAGE Classpath changed for project: project
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 19:48:32.433
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
 !MESSAGE Classpath changed for project: project
 <<<<<<< HEAD
 !SESSION 2023-07-21 18:36:06.942 -----------------------------------------------

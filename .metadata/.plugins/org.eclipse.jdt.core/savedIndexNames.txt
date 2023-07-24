@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 INDEX VERSION 1.132+C:\kmg\kmg\git4\.metadata\.plugins\org.eclipse.jdt.core
 332240627.index
 2543566890.index
@@ -25,6 +26,20 @@ INDEX VERSION 1.132+C:\kmg\kmg\git4\.metadata\.plugins\org.eclipse.jdt.core
 646273919.index
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+INDEX VERSION 1.134+C:\Java\git\team2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3053824717.index
+3581163120.index
+=======
+INDEX VERSION 1.134+C:\njy\java\git1\.metadata\.plugins\org.eclipse.jdt.core
+3581163120.index
+2324928149.index
+>>>>>>> 44f25b12786d6d1b6db9a1017705b1707164993d
+=======
+>>>>>>> kiim
 INDEX VERSION 1.134+C:\kmg\kmg\java\git41\.metadata\.plugins\org.eclipse.jdt.core
 2473978784.index
 1670207510.index
@@ -125,6 +140,7 @@ INDEX VERSION 1.134+C:\kmg\kmg\java\git41\.metadata\.plugins\org.eclipse.jdt.cor
 2949783246.index
 1103546606.index
 3298015168.index
+>>>>>>> 22026db3a73e7a8c484061dcadc971b4372ea277
 =======
 INDEX VERSION 1.131+C:\lch_java_weekend\lch_java_weekend\java\git4\.metadata\.plugins\org.eclipse.jdt.core
 2270532535.index
