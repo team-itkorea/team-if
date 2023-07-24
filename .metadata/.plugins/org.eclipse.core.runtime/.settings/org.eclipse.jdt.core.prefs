@@ -1,5 +1,9 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/\uAE40\uC0C1\uD604/.m2/repository
+=======
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/DELL/.m2/repository
+>>>>>>> a0c7763d90be96d8aa0a37dae93b4fb4117ed18d
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=17
