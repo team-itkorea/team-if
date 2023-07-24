@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-//import com.example.practice.auth.PrincipalDetailsService;
 import com.example.practice.dto.SignupReqDto;
 import com.example.practice.service.UserService;
 
@@ -19,7 +18,6 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class PageController {
 	
-//	private final PrincipalDetailsService principalDetailsService;
 	private final UserService userService;
 	
 	@Autowired

@@ -15,7 +15,7 @@ public class AuthFailureHandler implements AuthenticationFailureHandler {
 	public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response,
 			AuthenticationException exception) throws IOException, ServletException {
 		
-		System.out.println(exception.getMessage());
+//		System.out.println(exception.getMessage());
 		response.setContentType("utf-8");
 		response.setContentType("text/html; charset=utf-8");
 		response.getWriter().print("<html><head></head><body><script>alert(\"로그인 실패\");history.back();</script></body></html>");
