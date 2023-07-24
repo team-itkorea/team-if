@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
-    <link rel="stylesheet" href="/css/program-deatil.css">
-    <link rel="stylesheet" href="/css/select-option.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/static/css/kim/program-detail.css">
+    <link rel="stylesheet" href="/static/css/kim/select-option.css">
+    <link rel="stylesheet" href="/static/css/kim/footer.css">
     <script src="https://kit.fontawesome.com/0894ad155a.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
     <header id="header">
@@ -20,7 +19,7 @@
                 <div><a href="#">WELLNESS ITEM</a></div>
                 <div><a href="#">CONTACT</a></div>
             </nav>
-            <div class="logo"><img src="/images/logo.png" alt=""></div>
+            <div class="logo"><img src="/static/img/logo.png" alt=""></div>
             <nav class="login">
                 <p>로그인</p>
                 <p>마이페이지</p>
@@ -35,7 +34,7 @@
 
         <div class="summary">
             <div class="summary-img">
-                <img src="/images/project-l/1.png">
+                <img src="/static/img/project-l/1.png">
             </div>
 
             <div class="summary-item">
@@ -113,32 +112,57 @@
     
             <div class="finish">
                 <div class="review-title"><h4>구매평(n)</h4></div>
-                <button type="button">구매평 작성</button>
+                <button type="button" class="btn-write">구매평 작성</button>
                 <div class="review">
                     <div class="review-left">
                         <div class="star-rate">★★★★★</div>
-                        <div class="review-option">옵션</div>
+                        <div class="review-option">[옵션]</div>
 
                         
                         <div class="review-container">
-
+                            <div class="review-content">
+                                내용
+                            </div>
+                            <div class="review-more">
+                                더보기
+                            </div>
+                            <div class="review-images">
+                                이미지
+                            </div>
                         </div>
+                        <div class="comment">댓글</div>
                     </div>
                     <div class="review-right">
-
+                        <div class="review-writer">이름</div>
+                        <div class="review-date">YYYY-MM-DD HH:mm</div>
                     </div>
                 </div>
-                <div class="qna">
+                <div class="page-write-button">
+
+                    <div class="page-buttons">
+                        <button type="button" class="page-button">&lt;</button>
+                        <button type="button" class="page-button">1</button>
+                        <button type="button" class="page-button">2</button>
+                        <button type="button" class="page-button">3</button>
+                        <button type="button" class="page-button">4</button>
+                        <button type="button" class="page-button">5</button>
+                        <button type="button" class="page-button">&gt;</button>
+                    </div>
+
+                    <button type="button" class="btn-write">구매평 작성</button>
+
+                </div>  
+                <!-- <div class="qna">
                     <div class="qna-left"></div>
                     <div class="qna-right"></div>
     
-                </div>
+                </div> -->
             </div>
         </div>
     </main>
 
     <footer id="footer">
-        <div class="background-img"><img src="/images/footer.png"></div>
+        <div class="background-img"><img src="/static/img/footer-img.png"></div>
     </footer>
 
 
