@@ -1,14 +1,25 @@
 package com.example.practice.controller;
 
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+<<<<<<< HEAD
+=======
+import com.example.practice.auth.PrincipalDetailsService;
+import com.example.practice.dto.CMRespDto;
+//import com.example.practice.auth.PrincipalDetailsService;
+>>>>>>> origin/Lim
 import com.example.practice.dto.SignupReqDto;
 import com.example.practice.service.UserService;
 
@@ -25,7 +36,7 @@ public class PageController {
 	
 	@GetMapping({"", "/"})
 	public String main() {
-		return "main";
+		return "/Nam/main";
 	}
 	
 	@GetMapping("/user")
@@ -42,22 +53,29 @@ public class PageController {
 	// SecurityConfig 생성 후 비활성화 할 것
 	@GetMapping("/loginForm")
 	public String loginForm() {
-		return "loginForm";
+		return "Lim/signin";
 	}
 	
 	@GetMapping("/joinForm")
 	public String joinForm() {
-		return "joinForm";
+		return "Lim/signupjoin";
 	}
 	
 	@PostMapping("/join")
 	public String join(@ModelAttribute SignupReqDto signupReqDto) {
-		String rawPassword = signupReqDto.getPassword ();
+		String rawPassword = signupReqDto.getUserPassword();
 		String encPassword = bCryptPasswordEncoder.encode(rawPassword);
-		signupReqDto.setPassword(encPassword);
+		signupReqDto.setUserPassword(encPassword);
 		userService.signup(signupReqDto);
-		return "redirect:/loginForm";
+		return "redirect:/joinForm";
 	}	
+	
+	
+	
+	@PostMapping("/login")
+	public String userlogin() {
+		return "/Nam/main";
+	}
 	
 	
 	
