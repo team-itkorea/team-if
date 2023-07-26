@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Program</title>
-    <link rel="stylesheet" href="/css/Kim/header.css">
-    <link rel="stylesheet" href="/css/Kim/footer.css">
-    <!-- <script src="https://kit.fontawesome.com/0894ad155a.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="/static/css/Kim/header.css">
+    <link rel="stylesheet" href="/static/css/Kim/footer.css">
+    <script src="https://kit.fontawesome.com/0894ad155a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="header">
@@ -18,7 +18,7 @@
                 <div><a href="#">WELLNESS ITEM</a></div>
                 <div><a href="#">CONTACT</a></div>
             </nav>
-            <div class="logo"><img src="/images/logo.png" alt=""></div>
+            <div class="logo"><img src="/static/images/logo.png" alt=""></div>
             <nav class="login">
                 <p>로그인</p>
                 <p>마이페이지</p>
@@ -42,19 +42,24 @@
             <div class="content"> 
                 <div class="content1" style="border: none;">
                     <div class="title"><h2>일상 탐험</h2></div>
+
                     <div class="write">
                         <p>한 번쯤 해보고 싶었지만 망설였던,<br>
                             잠시 바쁘다 보니 놓치고 있던 나를 더 나답게 만들어주는 시간.<br>
                             다양한 영역의 웰니스 프로그램을 원데이 클래스로 경험해 보세요.
                         </p>
                     </div>
-                    <div class="arrow-circle">
-                        <div class="arrow arrow-right"></div>
+
+                    <div class="arrow">
+                        <a href="/templates/Kim/program-l.html">
+                            <i class="fa-solid fa-circle-arrow-right fa-4x"></i>
+                        </a>
                     </div>
+                        
                 </div>
                 <div class="content1">
                     <div class="img-section1">
-                        <img src="/images/pic_1.png" alt="">
+                        <img src="/static/images/pic_1.png" alt="">
                     </div>
                     <div class="txt-section1">
                         <h3 class="program-name">썬데이 뮤직 클럽</h3>
@@ -63,7 +68,7 @@
                 </div>
                 <div class="content1">
                     <div class="img-section1">
-                        <img src="/images/pic_2.png" alt="">
+                        <img src="/static/images/pic_2.png" alt="">
                     </div>
                     <div class="txt-section1">
                         <h3 class="program-name">제주 구좌 판화 클래스</h3>
@@ -88,12 +93,14 @@
                         <p>
                     </div>
                     <div class="arrow">
-
+                        <a href="/templates/Kim/program-w.html">
+                            <i class="fa-solid fa-circle-arrow-right fa-4x"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="content2">
                     <div class="img-section2">
-                        <img src="/images/스크린샷 2023-07-12 200041.png" alt="">
+                        <img src="/static/images/스크린샷 2023-07-12 200041.png" alt="">
                     </div>
                     <div class="txt-section2">
                         <h3 class="program-name">&lt;웰니스 클럽&gt; 컬러로 탐험하는 나의 마음</h3>
@@ -116,7 +123,7 @@
     </main>
     
     <footer id="footer">
-        <div class="background-img"><img src="/images/footer.png"></div>
+        <div class="background-img"><img src="/static/images/footer.png"></div>
     </footer>
 
 </body>
