@@ -11,5 +11,10 @@ public class User {
 	private String user_name;
 	private String user_email;
 	private String user_password;
+	private String user_address;
+	private String user_phone;
+	private int user_gender;
+	private String user_birth;
+	private String user_profile_img;
 	private String user_role;
 }

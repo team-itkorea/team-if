@@ -2,6 +2,7 @@ package com.example.practice.auth;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Map;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -21,17 +22,23 @@ public class PrincipalDetails implements UserDetails {
 	private static final long serialVersionUID = 1L;
 	
 	private User user;
+	private Map<String, Object> attribute;
 	
 	public PrincipalDetails(User user) {
 		this.user = user;
+	}
+	
+	public PrincipalDetails(User user, Map<String,Object> attribute) {
+		this.user = user;
+		this.attribute = attribute;
 	}
 	
 	// 해당 유저의 권한을 리턴하는 곳
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// ArrayList는 Collection의 자식
-		Collection<GrantedAuthority> collect = new ArrayList<GrantedAuthority>();
-		collect.add(new GrantedAuthority() {
+		Collection<GrantedAuthority> grantedAuthorities = new ArrayList<GrantedAuthority>();
+		grantedAuthorities.add(new GrantedAuthority() {
 			private static final long serialVersionUID = 1L;
 			
 			@Override
@@ -39,7 +46,7 @@ public class PrincipalDetails implements UserDetails {
 				return user.getUser_role();
 			}
 		});
-		return collect;
+		return grantedAuthorities;
 	}
 
 

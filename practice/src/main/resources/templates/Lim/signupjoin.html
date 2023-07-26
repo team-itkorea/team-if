@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/6f4cc019cf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/static/css/header.css">
-    <link rel="stylesheet" href="/static/css/signupjoin.css">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/Lim/header.css">
+    <link rel="stylesheet" href="/static/css/Lim/signupjoin.css">
+    <link rel="stylesheet" href="/static/css/Lim/style.css">
 </head>
 <body>
     <header id="header">
@@ -19,7 +19,7 @@
                 <div><a href="#">WELLNESS ITEM</a></div>
                 <div><a href="#">CONTACT</a></div>
             </nav>
-            <div class="logo"><img src="/img/logo.png" alt=""></div>
+            <div class="logo"><img src="/static/img/logo.png" alt=""></div>
             <nav class="login">
                 <p>로그인</p>
                 <p>마이페이지</p>
@@ -29,50 +29,51 @@
     </header>
     <!-- 회원가입 부분 -->
     <div class="inside">
-        <div>
+    <form action="/join" method="post">
+    	<div>
             <div class="user-imgfile">
-                <input class="user-uplode-file" type="file" title="file upload">
+                <input class="user-uplode-file" name="userProfileImg" type="file" title="file upload">
             </div>
             <div>
                 <div class="user-input">
-                    <input type="text" title="이메일" id="user-email" placeholder="이메일">   
-                    <input type="password" title="비밀번호" id="user-password" placeholder="비밀번호" autocomplete="off">
-                    <input type="password" title="비밀번호" id="user-password-check" placeholder="비밀번호 확인" autocomplete="off">
+                    <input type="text" name="userEmail" title="이메일"  id="user-email" placeholder="이메일">   
+                    <input type="password" name="userPassword" title="비밀번호" id="user-password" onchange="check_pw()" placeholder="비밀번호" autocomplete="off">
+                    <input type="password" name="userPassword" title="비밀번호" id="user-password-check" onchange="check_pw()" placeholder="비밀번호 확인" autocomplete="off"><span id="check"></span>
                 </div>
                 <div class="user-name">
                     <span>이름</span><li class="user-name-span">&#149</li>
-                    <input type="text" title="이름" id="username" placeholder="이름을(를) 입력하세요">   
+                    <input type="text" name="userName" title="이름" id="username" placeholder="이름을(를) 입력하세요">   
                 </div>
                 <div class="user-gender">
                     <span>성별</span><li class="user-name-span">&#149</li>
                 </div>
                 <label>
                     <div class="gender-m">
-                        <input type="radio">
+                        <input type="radio" value="0" name="userGender">
                         <span class="user-man">남자</span>
                     </div>
                 </label>
                     <label>
                         <div class="gender-f">
-                            <input type="radio">
+                            <input type="radio" value="1" name="userGender">
                             <span class="user-gile">여자</span>
                         </div>
                     </label>
                 <div class="user-telnumber">
                     <span>연락처</span><li class="user-name-span">&#149</li>
-                    <input type="text" title="연락처" id="usertelnumber" placeholder="연락처">   
+                    <input type="text" name="userPhone" title="연락처" id="usertelnumber" placeholder="연락처">   
                 </div>
                 <div class="user-address">
                     <div class="user-address-span">
                         <span>주소</span><li class="user-name-span">&#149</li>
                     </div>
-                    <input type="text" title="주소" id="useraddress" placeholder="주소">
-                    <input type="text" title="상세주소" id="user-detailed-address" placeholder="상세주소">   
+                    <input type="text" name="userAddress" title="주소" id="useraddress" placeholder="주소">
+                    <input type="text" name="userAddress" title="상세주소" id="user-detailed-address" placeholder="상세주소">   
                 </div>
                 <div class="user-birth">
                     <span>생년월일</span><li class="user-name-span">&#149</li>
                     <div>
-                        <select name="birth_a" id="birth_a" title="생년월일" class="user-birth1">
+                        <select name="userBirth" id="birth_a" title="생년월일" class="user-birth1">
                             <option value="1990">1990</option>
                             <option value="1991">1991</option>
                             <option value="1992">1992</option>
@@ -108,7 +109,7 @@
                             <option value="2022">2022</option>
                             <option value="2023">2023</option>
                         </select>
-                        <select name="birth_b" id="birth_b" title="월"class="user-birth1">
+                        <select name="userBirth" id="birth_b" title="월"class="user-birth1">
                             <option value="월">월</option>
                             <option value="1월">1월</option>
                             <option value="2월">2월</option>
@@ -123,7 +124,7 @@
                             <option value="11월">11월</option>
                             <option value="12월">12월</option>
                         </select>
-                        <select name="birth_c" id="birth_c" title="일"class="user-birth1">
+                        <select name="userBirth" id="birth_c" title="일"class="user-birth1">
                             <option value="일">일</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -164,10 +165,12 @@
                 <hr class="line">
             </div>
         </div>
+    </form>
+        
     </div>
- 
+ <script type="text/javascript" src="/static/js/Lim/signupjoin.js"></script>
 </body>
 <footer id="footer">
-    <div class="background-img"><img src="/img/foot.png" alt=""></div>
+    <div class="background-img"><img src="/static/img/footer-img01.png" alt=""></div>
 </footer>
 </html>

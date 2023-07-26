@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/6f4cc019cf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/static/css/header.css">
-    <link rel="stylesheet" href="/static/css/login.css">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/Lim/header.css">
+    <link rel="stylesheet" href="/static/css/Lim/login.css">
+    <link rel="stylesheet" href="/static/css/Lim/style.css">
 </head>
 <body>
     <header id="header">
@@ -65,9 +65,12 @@
                             <span>로그인상태유지</span>
                         </label>
                     </div>
-                    <p>
-                        <button class="text_c4">로그인</button>
-                    </p>
+                    <form action="/login" method="post">
+                    	<p>
+	                        <button class="text_c4">로그인</button>
+	                    </p>
+                    </form>
+                    
                 </form>
                 <div class="login-text">
                     <a href="">회원가입</a>

@@ -6,6 +6,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import com.example.practice.dto.SignupReqDto;
 import com.example.practice.user.User;
 import com.example.practice.user.UserRepository;
 
@@ -20,20 +21,28 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class PrincipalDetailsService implements UserDetailsService {
 
-	@Autowired
+	
 	private final UserRepository userRepository;
 
 	@Override
 	public UserDetails loadUserByUsername(String username) {
 
-		User userEntity = userRepository.findByUsername(username);
+		User userEntity = null;
+		
+		try {
+			userEntity = userRepository.findByUsername(username);
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new UsernameNotFoundException(username);
+		}
 		
 		if(userEntity == null) {
-			System.out.println(username + " 은(는) 없는 유저입니다.");
-			throw new UsernameNotFoundException(username);
-		}	
-		
-		System.out.println(username + " 은(는) 있는 유저입니다.");
+			throw new UsernameNotFoundException(username + "사용자이름을 사용할 수 없습니다.");
+		}
 		return new PrincipalDetails(userEntity);
+	}
+	
+	public boolean addUser (SignupReqDto signupReqDto) {
+		return userRepository.addUser(signupReqDto.toEntity()) > 0;
 	}
 }

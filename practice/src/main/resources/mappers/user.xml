@@ -12,6 +12,11 @@
 	  		#{user_name},
 	  		#{user_email},
 	  		#{user_password},
+	  		#{user_address},
+	  		#{user_phone},
+	  		#{user_gender},
+	  		#{user_birth},
+	  		#{user_profile_img},
 	  		#{user_role},
 	  		now(),
 	  		now()
@@ -24,6 +29,6 @@
 	  	from
 	  		user
 	  	where
-			user_email = #{username}
+			userEmail = #{user_email}
 	</select>
 </mapper>
