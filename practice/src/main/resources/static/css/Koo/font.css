@@ -155,3 +155,19 @@
     font-size: 22px;
     background-color: #ffffff;
 }
+
+.test {
+    font-family: 'NanumSquareRound';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.links-copy {
+    font-family: 'NanumSquare';
+    font-size: 13px;
+    color: #818181;
+}
+
+.img-b {
+    color: #222222;
+}
