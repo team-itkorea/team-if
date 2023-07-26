@@ -1,8 +1,11 @@
 package com.example.practice.controller;
 
+<<<<<<< HEAD
 
 import javax.validation.Valid;
 
+=======
+>>>>>>> kiim
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
